@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
+    <script>
+        function changeColor(){
+        document.getElementById("title").style.color="red"
+        }
+        function changeColor(){
+        document.getElementById("title").style.background="blue"
+        }
+    </script>
+    <h1 id="title">Welcome</h1>
+    <button onclick="return changeColor();">changeColor</button>
     <ul>
         <li>
             <a href="hanoi.html">hanoi</a>
@@ -17,8 +29,5 @@
             <a href="hochiminh.html">hochiminh</a>
         </li>
     </ul>
-    <h1>
-        welcome
-    </h1>
 </body>
 </html>
